@@ -19,3 +19,6 @@ sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' f
 
 # luci-theme-infinityfreedom
 sed -i '$a src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' feeds.conf.default
+
+# xiaoqingfengATGH/HomeLede
+sed -i '$a src-git xiaoqingfengatgh https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng.git' feeds.conf.default
